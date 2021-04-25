@@ -27,7 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `admin_details`
 --
-
+CREATE DATABASE `test`;
+USE `test`;
 CREATE TABLE `admin_details` (
   `email` varchar(30) NOT NULL,
   `password` varchar(20) NOT NULL,
